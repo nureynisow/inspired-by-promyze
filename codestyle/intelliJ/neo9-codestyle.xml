@@ -18,13 +18,14 @@
     <option name="CHAINED_CALL_DOT_ON_NEW_LINE" value="false" />
     <option name="SPACE_BEFORE_ASYNC_ARROW_LPAREN" value="false" />
     <option name="IMPORT_SORT_MODULE_NAME" value="true" />
+    <option name="IMPORT_PREFER_ABSOLUTE_PATH" value="TRUE" />
+    <option name="IMPORT_USE_NODE_RESOLUTION" value="TRUE" />
   </JSCodeStyleSettings>
   <JSON>
     <option name="ARRAY_WRAPPING" value="1" />
   </JSON>
   <JavaCodeStyleSettings>
     <option name="SPACE_AFTER_CLOSING_ANGLE_BRACKET_IN_TYPE_ARGUMENT" value="true" />
-    <option name="DO_NOT_WRAP_AFTER_SINGLE_ANNOTATION" value="true" />
   </JavaCodeStyleSettings>
   <Properties>
     <option name="KEEP_BLANK_LINES" value="true" />
@@ -35,7 +36,7 @@
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
     <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
-    <option name="OBJECT_LITERAL_WRAP" value="1" />
+    <option name="OBJECT_LITERAL_WRAP" value="0" />
     <option name="IMPORTS_WRAP" value="1" />
     <option name="UNION_TYPES_WRAP" value="1" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
@@ -98,10 +99,8 @@
     <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
     <option name="KEEP_SIMPLE_LAMBDAS_IN_ONE_LINE" value="true" />
     <option name="KEEP_SIMPLE_CLASSES_IN_ONE_LINE" value="true" />
+    <option name="IF_BRACE_FORCE" value="3" />
     <option name="WRAP_LONG_LINES" value="true" />
-    <option name="METHOD_ANNOTATION_WRAP" value="1" />
-    <option name="CLASS_ANNOTATION_WRAP" value="1" />
-    <option name="FIELD_ANNOTATION_WRAP" value="1" />
     <option name="ENUM_CONSTANTS_WRAP" value="5" />
     <option name="WRAP_ON_TYPING" value="0" />
     <indentOptions>
@@ -177,7 +176,6 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
-    <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
     <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
